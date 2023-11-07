@@ -5,6 +5,29 @@
           box-sizing: border-box;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .hero,
+  .install,
+  .battery,
+  .korrosion,
+  .ebike {
+    padding: 5em 0; /* Adjust padding for smaller screens */
+  }
+
+  .primary-title {
+    font-size: 1.5rem; /* Reduce the font size for mobile */
+  }
+
+  .section-title {
+    font-size: 2rem; /* Adjust the font size for mobile section titles */
+  }
+
+  .container2 {
+    flex-direction: column; /* Stack the social and contact sections for mobile */
+  }
+}
+
 .logo {
   position: absolute; /* Position the logo absolutely within the header */
   top: 20px; /* Adjust the top position as needed */
